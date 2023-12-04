@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "896415309279",
+    "project_id": "projectk-a7a59",
+    "storage_bucket": "projectk-a7a59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896415309279:android:84b1f0062fe8b093b2f86a",
+        "android_client_info": {
+          "package_name": "com.firstlogicmetalab.task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896415309279-cn0k586vs1ufatvbv4phnofjr2j20vfb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firstlogicmetalab.task",
+            "certificate_hash": "283417ee16a3aa4ef095a165b21fa31d874107c4"
+          }
+        },
+        {
+          "client_id": "896415309279-rvplrt51lem8iorbk58llj2bq57m5bhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQN-nHDW8XigTjYkovmbD-KB587O5139k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896415309279-rvplrt51lem8iorbk58llj2bq57m5bhu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

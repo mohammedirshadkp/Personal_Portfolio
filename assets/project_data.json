@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "BMI Calculator",
+      "description": "The BMI Calculator App, developed using Flutter, is a handy tool designed to help users track and manage their Body Mass Index (BMI) effectively. This user-friendly app allows individuals to input …",
+      "url": "https://github.com/mohammedirshadkp/BMI_Calculator.git",
+      "tags": ["Flutter", "Dart"]
+    },
+    {
+      "id": 2,
+      "title": "Movie Quizler",
+      "description": "The Quiz App, built using Flutter, is an engaging platform that offers a interactive quiz experience for users across various topics and categories.",
+      "url": "https://github.com/mohammedirshadkp/Movie_Quizler.git",
+      "tags": ["Flutter","Dart"]
+    },
+    {
+      "id": 3,
+      "title": "Ringtone",
+      "description": "This Flutter-based Ringtone App offers a versatile collection of ringtones for mobile devices.",
+      "url": "https://github.com/mohammedirshadkp/Ringtone_app.git",
+      "tags": ["Flutter","Dart"]
+    },
+    {
+      "id": 4,
+      "title": "Whatsapp Responsive UI",
+      "description": "It is a Responsive UI Clone of Whatsapp Application",
+      "url": "https://github.com/mohammedirshadkp/whatsapp_responsive_ui.git",
+      "tags": ["Flutter","Dart"]
+    },
+    {
+      "id": 5,
+      "title": "Responsive Dashboard UI",
+      "description": "It is a Responsive UI of Admin Dashboard",
+      "url": "https://github.com/mohammedirshadkp/dashboard_responsive_ui",
+      "tags": ["Flutter","Dart"]
+    },
+    {
+      "id": 6,
+      "title": "Reddit Clone App",
+      "description": "RedditClone is a feature-rich Flutter app built with Dart, leveraging Riverpod for efficient state management. This app faithfully emulates the essence of Reddit,",
+      "url": "https://github.com/mohammedirshadkp/RedditCloneApp-Riverpod-mast",
+      "tags": ["Riverpod","Dart","Firebase"]
+    },{
+      "id": 7,
+      "title": "Dried Fruit App",
+      "description": "its a simple app with an interface to buy fruits and add to cart and add to favourite",
+      "url": "https://github.com/mohammedirshadkp/Driefruit_Purchase_app",
+      "tags": ["Dart","Firebase"]
+    },{
+      "id": 8,
+      "title": "Instagram Clone",
+      "description": "Instagram Clone is a feature-rich Flutter app built with Dart, leveraging Riverpod for efficient state management. This app faithfully emulates the essence of Instagram,",
+      "url": "https://github.com/mohammedirshadkp/Instagram_Clone",
+      "tags": ["Riverpod","Dart","Firebase"]
+    }
+  ]
+}
