@@ -35,15 +35,12 @@ class FooterData {
   static const footerTextPart3 = "and welcome bribes in the form of pizza";
   static const footerTextPart3Alt1 = "and welcome bribes in the\n";
   static const footerTextPart3Alt2 = "form of pizza";
-
   static const contactPart1 = "Let's get in touch! I prefer ";
-  static const contactPart2 = "Emails";
+  static const contactPart2 = "mohammedirshadkp500@gmail.com";
   static const contactPart3 = " and ";
-  static const contactPart4 = "Instagram DMs";
+  static const contactPart4 = "+91 7592072890";
   static const contactPart5 = ".";
-
   static const copyright = "© 2023 by Mohammed Irshad Kp";
-  static const version = "v1.1.0";
 }
 
 class IntroData {
@@ -57,15 +54,14 @@ class IntroData {
 }
 
 class FlitData {
-  static const startDate = "June 2023"; // Replace with your start date
-  static const endDate = "Present"; // Update if no longer current
+  static const startDate = "June 2023";
+  static const endDate = "November 2023";
 
   static const point1Part1 =
-      "Contributed to the development of an Inventory Management System utilizing ";
+      "Contributed to the development of an Inventory Management System utilizing";
   static const point1Part2 = " and other relevant technologies.";
   static const point1Part3 = "";
   static const point1Part4 = "";
-
   static const point2 =
       "Participated in building an admin app for 'Jobo,' a platform dedicated to managing part-time job listings and user interactions.";
 

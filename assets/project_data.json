@@ -53,6 +53,13 @@
       "description": "Instagram Clone is a feature-rich Flutter app built with Dart, leveraging Riverpod for efficient state management. This app faithfully emulates the essence of Instagram,",
       "url": "https://github.com/mohammedirshadkp/Instagram_Clone",
       "tags": ["Riverpod","Dart","Firebase"]
+    },
+    {
+      "id": 9,
+      "title": "Bank Details Fetcher",
+      "description": "Flutter app fetching bank details via IFSC codes. Integrates HTTP requests for data retrieval, utilizes responsive UI components, and displays fetched details using Riverpod for state management",
+      "url": "https://github.com/mohammedirshadkp/IFSC_GET_BANK_DETAILS_API.git",
+      "tags": ["Riverpod","API","Flutter"]
     }
   ]
 }
