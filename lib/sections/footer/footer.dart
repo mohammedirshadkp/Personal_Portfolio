@@ -177,37 +177,4 @@ class _FooterState extends State<Footer> {
       ],
     );
   }
-
-  // Widget _sourceCode() {
-  //   return Row(
-  //     mainAxisAlignment: MainAxisAlignment.center,
-  //     crossAxisAlignment: CrossAxisAlignment.center,
-  //     children: <Widget>[
-  //       const ClickableIcon(
-  //         icon: FontAwesomeIcons.codeBranch,
-  //         iconSize: 12.0,
-  //         iconColor: AppColors.mediumGrey2,
-  //         url: Url.websiteSourceCode,
-  //       ),
-  //       const SizedBox(width: 8.0),
-  //       Flexible(
-  //         child: AutoSizeText.rich(
-  //           TextSpan(
-  //             style: TextStyles.sourceCode,
-  //             children: <TextSpan>[
-  //               TextSpan(
-  //                 text: FooterData.version,
-  //                 style: TextStyles.sourceCode,
-  //                 recognizer: TapGestureRecognizer()
-  //                   ..onTap = () => launch(Url.websiteSourceCode),
-  //               ),
-  //             ],
-  //           ),
-  //           textAlign: TextAlign.center,
-  //           maxLines: 1,
-  //         ),
-  //       ),
-  //     ],
-  //   );
-  // }
 }
