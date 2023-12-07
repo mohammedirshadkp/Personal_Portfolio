@@ -19,7 +19,6 @@ class Url {
   static const instagram = "https://www.instagram.com/irshadkp_";
   static const linkedin =
       "https://www.linkedin.com/in/mohammed-irshad-a652b1298";
-  // Resume
   static const resume =
-      "https://drive.google.com/file/d/1LbSKkMaHR_---oQklwqSHFjz0YHy7xt4/view?usp=drivesdk";
+      "https://drive.google.com/file/d/1M6pfnLHw2A9cV6SyYtAhMKmHB7dn4t7b/view?usp=drivesdk";
 }
