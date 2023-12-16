@@ -17,9 +17,7 @@ import 'package:url_launcher/url_launcher.dart';
 class Home extends StatelessWidget {
   static final List<GlobalKey> dataKeys =
       List.generate(4, (index) => GlobalKey());
-
   const Home({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

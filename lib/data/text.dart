@@ -5,10 +5,8 @@ class AboutMeData {
   static const paragraph2Part1 = "I'm a recent graduate from ";
   static const paragraph2Part2 =
       " . I possess certificates from Udemy in Flutter and Riverpod state management, utilizing an MVC file structure.I am enthusiastic about collaborating with reputable companies to apply and further develop my expertise.";
-
   static const paragraph3 =
       "I aspire to continue enhancing my projects and will update them here shortly. Besides, I am eager to explore new opportunities to contribute my skills.";
-
   static const paragraph4 =
       "Here are a few technologies I've been working with recently: Flutter, Dart, Firebase, Riverpod, MVC.";
 }
@@ -18,12 +16,10 @@ class ButtonData {
   static const buttonNumber2 = "02.";
   static const buttonNumber3 = "03.";
   static const buttonNumber4 = "04.";
-
   static const button1Title = "About";
   static const button2Title = "Experience";
   static const button3Title = "Projects";
   static const button4Title = "Contact";
-
   static const showLess = "Show Less";
   static const showMore = "Show More";
   static const resume = "Resume";
@@ -31,10 +27,10 @@ class ButtonData {
 
 class FooterData {
   static const footerTextPart1 = "I'm Malappuram-bred,\n";
-  static const footerTextPart2 = "passionately curious,\n";
-  static const footerTextPart3 = "and welcome bribes in the form of pizza";
-  static const footerTextPart3Alt1 = "and welcome bribes in the\n";
-  static const footerTextPart3Alt2 = "form of pizza";
+  static const footerTextPart2 = "passionately curious.";
+  // static const footerTextPart3 = "and welcome bribes in the form of Biriyani";
+  // static const footerTextPart3Alt1 = "and welcome bribes in the\n";
+  // static const footerTextPart3Alt2 = "form of pizza";
   static const contactPart1 = "Let's get in touch! I prefer ";
   static const contactPart2 = "Emails";
   static const contactPart3 = " and ";
@@ -93,7 +89,7 @@ class TechData {
   static const dapper = "Dapper";
   static const creopyson = "Creopyson";
   static const creoParametric = "CREO: Parametric";
-  static const flutter = "Flutter";
+  static const flutter = " Flutter";
   static const googleMapsWebServices = "Google Maps Web Services";
   static const firebaseMessaging = "Firebase Messaging";
   static const dio = "Dio";

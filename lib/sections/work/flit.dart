@@ -12,13 +12,11 @@ import 'package:url_launcher/url_launcher.dart';
 class FirstLogicMetaLab extends StatelessWidget {
   final AutoSizeGroup pointGroup;
   final AutoSizeGroup titleGroup;
-
   const FirstLogicMetaLab({
     super.key,
     required this.pointGroup,
     required this.titleGroup,
   });
-
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -56,7 +54,7 @@ class FirstLogicMetaLab extends StatelessWidget {
                   launch(Url.flutter);
                 },
             ),
-            const TextSpan(text: ' , '),
+            const TextSpan(text: ', '),
             TextSpan(
               text: TechData.riverpod,
               style: TextStyles.highlightSkill,

@@ -110,25 +110,26 @@ class _FooterState extends State<Footer> {
   }
 
   Widget _footerText(BuildContext context) {
-    return AutoSizeText.rich(
+    return const AutoSizeText.rich(
       TextSpan(
         style: TextStyles.footer,
         children: [
-          const TextSpan(text: FooterData.footerTextPart1),
-          const TextSpan(text: FooterData.footerTextPart2),
-          ResponsiveWidget.isSmallScreen(context)
-              ? const TextSpan(
-                  style: TextStyles.footer,
-                  children: [
-                    TextSpan(text: FooterData.footerTextPart3Alt1),
-                    TextSpan(text: FooterData.footerTextPart3Alt2),
-                  ],
-                )
-              : const TextSpan(text: FooterData.footerTextPart3),
+          TextSpan(text: FooterData.footerTextPart1),
+          TextSpan(text: FooterData.footerTextPart2),
+          // ResponsiveWidget.isSmallScreen(context)
+          //     ? const TextSpan(
+          //         style: TextStyles.footer,
+          //         children: [
+          //           // TextSpan(text: FooterData.footerTextPart3Alt1),
+          //           // TextSpan(text: FooterData.footerTextPart3Alt2),
+          //         ],
+          //       )
+          //     : const
+          // TextSpan(text: FooterData.footerTextPart3),
         ],
       ),
       textAlign: TextAlign.center,
-      presetFontSizes: const [14, 10],
+      presetFontSizes: [14, 10],
       maxLines: 4,
     );
   }
