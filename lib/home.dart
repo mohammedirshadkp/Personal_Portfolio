@@ -21,6 +21,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.backgroundBlue,
       drawer: _buildDrawer(context),
       body: Builder(
         builder: (context) => AnimateIfVisibleWrapper(
@@ -36,7 +37,11 @@ class Home extends StatelessWidget {
                     !ResponsiveWidget.isSmallScreen(context) ? 90 : 0,
                 leading: ResponsiveWidget.isSmallScreen(context)
                     ? IconButton(
-                        icon: const Icon(Icons.drag_handle_rounded, size: 32),
+                        icon: const Icon(
+                          Icons.drag_handle_rounded,
+                          size: 32,
+                          color: AppColors.mediumGrey1,
+                        ),
                         onPressed: () => Scaffold.of(context).openDrawer())
                     : null,
               ),
@@ -140,6 +145,7 @@ class Home extends StatelessWidget {
   Drawer? _buildDrawer(BuildContext context) {
     return ResponsiveWidget.isSmallScreen(context)
         ? Drawer(
+            backgroundColor: AppColors.backgroundBlue,
             child: Container(
               padding: const EdgeInsets.symmetric(vertical: 128.0),
               child: Wrap(
