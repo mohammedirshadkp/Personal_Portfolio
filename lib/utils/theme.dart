@@ -13,20 +13,6 @@ class AppColors {
   static const backgroundBlue = Color(0xFF051021);
 }
 
-// class AppColors {
-//   static const white = Color(0xFF000000);
-//   static const black = Color(0xFFFFFFFF);
-//   static const lightGrey1 = Color(0xFF000000);
-//   static const lightGrey2 = Color(0xFF000000);
-//   static const mediumGrey1 = Color(0xFF000000);
-//   static const mediumGrey2 = Color(0xFF000000);
-//   static const darkGrey1 = Color(0xFF000000);
-//   static const blueAccent = Color(0xFF80F0FF);
-//   static const blueOffset =
-//       Color(0xFF8391A6); // Replace with your desired green color
-//   static const backgroundBlue = Color(0xFF57657A); // Example dark green
-// }
-
 class ButtonStyles {
   static ButtonStyle primary = ButtonStyle(
     fixedSize: MaterialStateProperty.all(const Size(120, 50)),
@@ -47,7 +33,7 @@ class ButtonStyles {
   );
 
   static ButtonStyle resume = ButtonStyle(
-    fixedSize: MaterialStateProperty.all(const Size(84, 42)),
+    fixedSize: MaterialStateProperty.all(const Size(120, 42)),
     overlayColor:
         MaterialStateProperty.all(AppColors.blueAccent.withOpacity(0.1)),
     shape: MaterialStateProperty.all(
@@ -188,7 +174,7 @@ class TextStyles {
   static const buttonText = TextStyle(
     fontFamily: 'SFMono',
     color: AppColors.blueAccent,
-    fontSize: 13,
+    fontSize: 12,
   );
 
   // Footer title

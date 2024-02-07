@@ -60,6 +60,32 @@
       "description": "Flutter app fetching bank details via IFSC codes. Integrates HTTP requests for data retrieval, utilizes responsive UI components, and displays fetched details using Riverpod for state management",
       "url": "https://github.com/mohammedirshadkp/IFSC_GET_BANK_DETAILS_API.git",
       "tags": ["Riverpod","API","Flutter"]
+    },
+    {
+      "id": 10,
+      "title": "ChargeMod Ev Charging App",
+      "description": "The app allows users to easily find and book electric vehicle charging stations based on their location and preferences. Users can view real-time availability, book charging slots,",
+      "url": "https://github.com/mohammedirshadkp/ChargeMod_EV_Recharging.git",
+      "tags": ["Riverpod","Dart","NodeJs"]
+    },
+    {
+      "id": 11,
+      "title": "Quiz App with HIVE",
+      "description": " The app leverages Hive, a lightweight and fast NoSQL database, for local data storage, ensuring seamless offline access to quizzes and user progress tracking. Users can enjoy a wide range of quizzes across various categories, fetched in real-time from the API",
+      "url": "https://github.com/mohammedirshadkp/Quiz_app.git",
+      "tags": ["Riverpod","Restful APIs","Flutter"]
+    },{
+      "id": 12,
+      "title": "2D Race Game With Flutter",
+      "description": " a thrilling 2D race game built with Flutter. Players can experience adrenaline-pumping races through vibrant and immersive 2D environments.",
+      "url": "https://github.com/mohammedirshadkp/2d_race_game.git",
+      "tags": ["Riverpod","Flutter","Dart"]
+    },{
+      "id": 13,
+      "title": "Travel App UI",
+      "description": "a stunning travel app UI developed with Flutter. The app offers a visually appealing and user-friendly interface designed to inspire wanderlust and simplify travel planning.",
+      "url": "https://github.com/mohammedirshadkp/travel_app_ui.git",
+      "tags": ["Dart","Flutter"]
     }
   ]
 }

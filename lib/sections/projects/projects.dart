@@ -91,7 +91,7 @@ class _ProjectsState extends State<Projects> {
                   : isMediumScreen
                       ? 2
                       : 3,
-              childAspectRatio: 1.35,
+              childAspectRatio: 1.35 / 1.25,
               mainAxisSpacing: 8.0,
               crossAxisSpacing: 8.0,
             ),

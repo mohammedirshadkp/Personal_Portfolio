@@ -89,7 +89,7 @@ class TechData {
   static const dapper = "Dapper";
   static const creopyson = "Creopyson";
   static const creoParametric = "CREO: Parametric";
-  static const flutter = " Flutter";
+  static const flutter = "Flutter";
   static const googleMapsWebServices = "Google Maps Web Services";
   static const firebaseMessaging = "Firebase Messaging";
   static const dio = "Dio";
