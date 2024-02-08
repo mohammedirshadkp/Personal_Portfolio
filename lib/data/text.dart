@@ -26,7 +26,7 @@ class ButtonData {
 }
 
 class FooterData {
-  static const footerTextPart1 = "I'm Malappuram-bred,\n";
+  static const footerTextPart1 = "I'm Kerala-bred,\n";
   static const footerTextPart2 = "passionately curious.";
   // static const footerTextPart3 = "and welcome bribes in the form of Biriyani";
   // static const footerTextPart3Alt1 = "and welcome bribes in the\n";
@@ -54,7 +54,7 @@ class FlitData {
   static const endDate = "November 2023";
 
   static const point1Part1 =
-      "Contributed to the development of an Inventory Management System utilizing";
+      "Contributed to the development of an Inventory Management System utilizing ";
   static const point1Part2 = " and other relevant technologies.";
   static const point1Part3 = "";
   static const point1Part4 = "";
