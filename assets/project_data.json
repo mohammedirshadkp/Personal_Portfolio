@@ -2,90 +2,94 @@
   "projects": [
     {
       "id": 1,
-      "title": "BMI Calculator",
-      "description": "The BMI Calculator App, developed using Flutter, is a handy tool designed to help users track and manage their Body Mass Index (BMI) effectively. This user-friendly app allows individuals to input …",
-      "url": "https://github.com/mohammedirshadkp/BMI_Calculator.git",
-      "tags": ["Flutter", "Dart"]
-    },
-    {
-      "id": 2,
-      "title": "Movie Quizler",
-      "description": "The Quiz App, built using Flutter, is an engaging platform that offers a interactive quiz experience for users across various topics and categories.",
-      "url": "https://github.com/mohammedirshadkp/Movie_Quizler.git",
-      "tags": ["Flutter","Dart"]
-    },
-    {
-      "id": 3,
-      "title": "Ringtone",
-      "description": "This Flutter-based Ringtone App offers a versatile collection of ringtones for mobile devices.",
-      "url": "https://github.com/mohammedirshadkp/Ringtone_app.git",
-      "tags": ["Flutter","Dart"]
-    },
-    {
-      "id": 4,
-      "title": "Whatsapp Responsive UI",
-      "description": "It is a Responsive UI Clone of Whatsapp Application",
-      "url": "https://github.com/mohammedirshadkp/whatsapp_responsive_ui.git",
-      "tags": ["Flutter","Dart"]
-    },
-    {
-      "id": 5,
-      "title": "Responsive Dashboard UI",
-      "description": "It is a Responsive UI of Admin Dashboard",
-      "url": "https://github.com/mohammedirshadkp/dashboard_responsive_ui",
-      "tags": ["Flutter","Dart"]
-    },
-    {
-      "id": 6,
-      "title": "Reddit Clone App",
-      "description": "RedditClone is a feature-rich Flutter app built with Dart, leveraging Riverpod for efficient state management. This app faithfully emulates the essence of Reddit,",
-      "url": "https://github.com/mohammedirshadkp/RedditCloneApp-Riverpod-mast",
-      "tags": ["Riverpod","Dart","Firebase"]
-    },{
-      "id": 7,
-      "title": "Dried Fruit App",
-      "description": "its a simple app with an interface to buy fruits and add to cart and add to favourite",
-      "url": "https://github.com/mohammedirshadkp/Driefruit_Purchase_app",
-      "tags": ["Dart","Firebase"]
-    },{
-      "id": 8,
-      "title": "Instagram Clone",
-      "description": "Instagram Clone is a feature-rich Flutter app built with Dart, leveraging Riverpod for efficient state management. This app faithfully emulates the essence of Instagram,",
-      "url": "https://github.com/mohammedirshadkp/Instagram_Clone",
-      "tags": ["Riverpod","Dart","Firebase"]
-    },
-    {
-      "id": 9,
       "title": "Bank Details Fetcher",
       "description": "Flutter app fetching bank details via IFSC codes. Integrates HTTP requests for data retrieval, utilizes responsive UI components, and displays fetched details using Riverpod for state management",
       "url": "https://github.com/mohammedirshadkp/IFSC_GET_BANK_DETAILS_API.git",
       "tags": ["Riverpod","API","Flutter"]
     },
     {
-      "id": 10,
-      "title": "ChargeMod Ev Charging App",
+      "id": 2,
+      "title": "Ev Charging App",
       "description": "The app allows users to easily find and book electric vehicle charging stations based on their location and preferences. Users can view real-time availability, book charging slots,",
       "url": "https://github.com/mohammedirshadkp/ChargeMod_EV_Recharging.git",
       "tags": ["Riverpod","Dart","NodeJs"]
     },
     {
-      "id": 11,
+      "id": 3,
       "title": "Quiz App with HIVE",
       "description": " The app leverages Hive, a lightweight and fast NoSQL database, for local data storage, ensuring seamless offline access to quizzes and user progress tracking. Users can enjoy a wide range of quizzes across various categories, fetched in real-time from the API",
       "url": "https://github.com/mohammedirshadkp/Quiz_app.git",
-      "tags": ["Riverpod","Restful APIs","Flutter"]
-    },{
-      "id": 12,
+      "tags": ["Riverpod","APIs","Flutter"]
+    },
+    {
+      "id": 4,
       "title": "2D Race Game With Flutter",
       "description": " a thrilling 2D race game built with Flutter. Players can experience adrenaline-pumping races through vibrant and immersive 2D environments.",
       "url": "https://github.com/mohammedirshadkp/2d_race_game.git",
       "tags": ["Riverpod","Flutter","Dart"]
-    },{
-      "id": 13,
+    },
+    {
+      "id": 5,
       "title": "Travel App UI",
       "description": "a stunning travel app UI developed with Flutter. The app offers a visually appealing and user-friendly interface designed to inspire wanderlust and simplify travel planning.",
       "url": "https://github.com/mohammedirshadkp/travel_app_ui.git",
       "tags": ["Dart","Flutter"]
+    },
+    {
+      "id": 6,
+      "title": "BMI Calculator",
+      "description": "The BMI Calculator App, developed using Flutter, is a handy tool designed to help users track and manage their Body Mass Index (BMI) effectively. This user-friendly app allows individuals to input …",
+      "url": "https://github.com/mohammedirshadkp/BMI_Calculator.git",
+      "tags": ["Flutter", "Dart"]
+    },
+    {
+      "id": 7,
+      "title": "Movie Quizler",
+      "description": "The Quiz App, built using Flutter, is an engaging platform that offers a interactive quiz experience for users across various topics and categories.",
+      "url": "https://github.com/mohammedirshadkp/Movie_Quizler.git",
+      "tags": ["Flutter","Dart"]
+    },
+    {
+      "id": 8,
+      "title": "Ringtone",
+      "description": "This Flutter-based Ringtone App offers a versatile collection of ringtones for mobile devices.",
+      "url": "https://github.com/mohammedirshadkp/Ringtone_app.git",
+      "tags": ["Flutter","Dart"]
+    },
+    {
+      "id": 9,
+      "title": "Whatsapp Responsive UI",
+      "description": "It is a Responsive UI Clone of Whatsapp Application",
+      "url": "https://github.com/mohammedirshadkp/whatsapp_responsive_ui.git",
+      "tags": ["Flutter","Dart"]
+    },
+    {
+      "id": 10,
+      "title": "Responsive Dashboard UI",
+      "description": "It is a Responsive UI of Admin Dashboard",
+      "url": "https://github.com/mohammedirshadkp/dashboard_responsive_ui",
+      "tags": ["Flutter","Dart"]
+    },
+    {
+      "id": 11,
+      "title": "Reddit Clone App",
+      "description": "RedditClone is a feature-rich Flutter app built with Dart, leveraging Riverpod for efficient state management. This app faithfully emulates the essence of Reddit,",
+      "url": "https://github.com/mohammedirshadkp/RedditCloneApp-Riverpod-mast",
+      "tags": ["Riverpod","Dart","Firebase"]
+    },
+    {
+      "id": 12,
+      "title": "Dried Fruit App",
+      "description": "its a simple app with an interface to buy fruits and add to cart and add to favourite",
+      "url": "https://github.com/mohammedirshadkp/Driefruit_Purchase_app",
+      "tags": ["Dart","Firebase"]
+    },
+    {
+      "id": 13,
+      "title": "Instagram Clone",
+      "description": "Instagram Clone is a feature-rich Flutter app built with Dart, leveraging Riverpod for efficient state management. This app faithfully emulates the essence of Instagram,",
+      "url": "https://github.com/mohammedirshadkp/Instagram_Clone",
+      "tags": ["Riverpod","Dart","Firebase"]
     }
   ]
 }
