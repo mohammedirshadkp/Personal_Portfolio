@@ -12,7 +12,7 @@ class PersonalWebsite extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Mohammed Irshad | Software Developer",
+      title: "Mohammed Irshad | Sofware Developer",
       theme: ThemeData(
         backgroundColor: AppColors.backgroundBlue,
         canvasColor: AppColors.backgroundBlue,
