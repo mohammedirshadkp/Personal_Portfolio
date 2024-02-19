@@ -28,7 +28,7 @@ class ButtonData {
 class FooterData {
   static const footerTextPart1 = "I'm Kerala-bred,\n";
   static const footerTextPart2 = "passionately curious.";
-  // static const footerTextPart3 = "and welcome bribes in the form of Biriani";
+  // static const footerTextPart3 = "and welcome bribes in the form of Birani";
   // static const footerTextPart3Alt1 = "and welcome bribes in the\n";
   // static const footerTextPart3Alt2 = "form of pizza";
   static const contactPart1 = "Let's get in touch! I prefer ";
