@@ -87,7 +87,7 @@ class TechData {
   static const restfulApi = "RESTful APIs";
   static const entityFramework = "Entity Framework";
   static const dapper = "Dapper";
-  static const creopyson = "Croyson";
+  static const creopyson = "Cropyson";
   static const creoParametric = "CREO: Parametric";
   static const flutter = "Flutter";
   static const googleMapsWebServices = "Google Maps Web Services";
