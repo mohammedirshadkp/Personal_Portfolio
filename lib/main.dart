@@ -11,14 +11,13 @@ class PersonalWebsite extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: "Mohammed Irshad | Software Developer",
-      theme: ThemeData(
-        canvasColor: AppColors.backgroundBlue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-        fontFamily: 'Calibre',
-      ),
-      home: const Home(),
-    );
+        debugShowCheckedModeBanner: false,
+        title: "Mohammed Irshad | Software Developer",
+        theme: ThemeData(
+          canvasColor: AppColors.backgroundBlue,
+          visualDensity: VisualDensity.adaptivePlatformDensity,
+          fontFamily: 'Calibre',
+        ),
+        home: const Home());
   }
 }
