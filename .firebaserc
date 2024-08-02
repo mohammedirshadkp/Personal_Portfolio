@@ -1,7 +1,15 @@
 {
   "projects": {
-    "default": "irshaad",
+    "default": "projectk-a7a59"
   },
-  "targets": {},
+  "targets": {
+    "projectk-a7a59": {
+      "hosting": {
+        "irshaad": [
+          "irshaad"
+        ]
+      }
+    }
+  },
   "etags": {}
 }

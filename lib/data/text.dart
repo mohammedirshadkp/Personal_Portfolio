@@ -50,8 +50,8 @@ class IntroData {
 }
 
 class FlitData {
-  static const startDate = "June 2023";
-  static const endDate = "November 2023";
+  static const startDateFirstLogic = "June 2023";
+  static const endDateFirstLogic = "December 2023";
 
   static const point1Part1 =
       "Contributed to the development of an Inventory Management System utilizing ";
@@ -67,6 +67,24 @@ class FlitData {
 
   static const point4 =
       "Continuously contributed to creating coherent user experiences and components across various applications.";
+}
+
+class WinceptData {
+  static const startDateWincept = "January 2024";
+  static const endDateWincept = "June 2024";
+
+  static const point1Part1 = "Developed a social media platform using ";
+  static const point1Part2 = "Flutter and API integration";
+  static const point1Part3 = " to create a community for abroad students.";
+  static const point1Part4 =
+      " Integrated AI features to enhance user experience.";
+  static const point2 =
+      "Focused on the front-end development of the app, ensuring a seamless and interactive user interface.";
+  static const point3Part1 =
+      "Implemented RESTful APIs for efficient data exchange between the frontend and backend.";
+  static const point3Part2 = "";
+  static const point4 =
+      "Contributed to creating coherent user experiences and components, enhancing the overall functionality of the application.";
 }
 
 class SectionTitleData {
@@ -101,7 +119,8 @@ class TechData {
 
 class WorkData {
   // Companies
-  static const firstlogic = "First Logic Meta Lab";
+  static const firstlogic = "First Logic Meta Lab Pvt Ltd";
+  static const wincept = "Wincept Pvt Ltd";
   static const calicut = "Calicut University";
   static const softwareEngineer2 = "Software developer";
 }

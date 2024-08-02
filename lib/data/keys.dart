@@ -21,7 +21,7 @@ class Keys {
 
   static const workSection = Key("work_section");
   static const firstLogicMetaLab = Key("first_logic_meta_lab");
-  static const volvo = Key("volvo");
+  static const wincept = Key("wincept");
   static const mule = Key("mule");
 
   static const footerText = Key("footer_text");

@@ -9,10 +9,10 @@ import 'package:personal_website/widgets/work_point.dart';
 import 'package:personal_website/widgets/work_title.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class FirstLogicMetaLab extends StatelessWidget {
+class Wincept extends StatelessWidget {
   final AutoSizeGroup pointGroup;
   final AutoSizeGroup titleGroup;
-  const FirstLogicMetaLab({
+  const Wincept({
     super.key,
     required this.pointGroup,
     required this.titleGroup,
@@ -25,13 +25,13 @@ class FirstLogicMetaLab extends StatelessWidget {
       children: <Widget>[
         WorkTitle(
           title: WorkData.softwareEngineer2,
-          company: WorkData.firstlogic,
+          company: WorkData.wincept,
           url: Url.firstlogic,
           group: titleGroup,
         ),
         const DateRange(
-            start: FlitData.startDateFirstLogic,
-            end: FlitData.endDateFirstLogic),
+            start: WinceptData.startDateWincept,
+            end: WinceptData.endDateWincept),
         const SizedBox(height: 8.0),
         _point1(),
         _point2(),
@@ -44,28 +44,28 @@ class FirstLogicMetaLab extends StatelessWidget {
   Widget _point1() {
     return WorkPoint(
       data: AutoSizeText.rich(
-        TextSpan(
+        const TextSpan(
           style: TextStyles.point,
           children: <TextSpan>[
-            const TextSpan(text: FlitData.point1Part1),
-            TextSpan(
-              text: TechData.flutter,
-              style: TextStyles.highlightSkill,
-              recognizer: TapGestureRecognizer()
-                ..onTap = () {
-                  launch(Url.flutter);
-                },
-            ),
-            const TextSpan(text: ', '),
-            TextSpan(
-              text: TechData.riverpod,
-              style: TextStyles.highlightSkill,
-              recognizer: TapGestureRecognizer()
-                ..onTap = () {
-                  launch(Url.flutter);
-                },
-            ),
-            const TextSpan(text: FlitData.point1Part2),
+            TextSpan(text: WinceptData.point1Part1),
+            // TextSpan(
+            //   text: TechData.flutter,
+            //   style: TextStyles.highlightSkill,
+            //   recognizer: TapGestureRecognizer()
+            //     ..onTap = () {
+            //       launch(Url.flutter);
+            //     },
+            // ),
+            // const TextSpan(text: ', '),
+            // TextSpan(
+            //   text: TechData.riverpod,
+            //   style: TextStyles.highlightSkill,
+            //   recognizer: TapGestureRecognizer()
+            //     ..onTap = () {
+            //       launch(Url.flutter);
+            //     },
+            // ),
+            TextSpan(text: WinceptData.point1Part2),
             // TextSpan(
             //   text: TechData.dart,
             //   style: TextStyles.highlightSkill,
@@ -74,7 +74,7 @@ class FirstLogicMetaLab extends StatelessWidget {
             //       launch(Url.flutter);
             //     },
             // ),
-            const TextSpan(text: FlitData.point1Part3),
+            TextSpan(text: WinceptData.point1Part3),
             // TextSpan(
             //   text: TechData.riverpod,
             //   style: TextStyles.highlightSkill,
@@ -83,7 +83,7 @@ class FirstLogicMetaLab extends StatelessWidget {
             //       launch(Url.sass);
             //     },
             // ),
-            const TextSpan(text: FlitData.point1Part4),
+            TextSpan(text: WinceptData.point1Part4),
           ],
         ),
         maxLines: 3,
@@ -96,7 +96,7 @@ class FirstLogicMetaLab extends StatelessWidget {
     return WorkPoint(
       data: AutoSizeText.rich(
         const TextSpan(
-          text: FlitData.point2,
+          text: WinceptData.point2,
           style: TextStyles.point,
         ),
         maxLines: 3,
@@ -111,7 +111,7 @@ class FirstLogicMetaLab extends StatelessWidget {
         const TextSpan(
           style: TextStyles.point,
           children: <TextSpan>[
-            TextSpan(text: FlitData.point3Part1),
+            TextSpan(text: WinceptData.point3Part1),
             // TextSpan(
             //   text: TechData.restapi,
             //   style: TextStyles.highlightSkill,
@@ -120,7 +120,7 @@ class FirstLogicMetaLab extends StatelessWidget {
             //       launch(Url.reactNative);
             //     },
             // ),
-            TextSpan(text: FlitData.point3Part2),
+            TextSpan(text: WinceptData.point3Part2),
           ],
         ),
         maxLines: 3,
@@ -133,7 +133,7 @@ class FirstLogicMetaLab extends StatelessWidget {
     return WorkPoint(
       data: AutoSizeText.rich(
         const TextSpan(
-          text: FlitData.point4,
+          text: WinceptData.point4,
           style: TextStyles.point,
         ),
         maxLines: 4,

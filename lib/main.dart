@@ -14,7 +14,6 @@ class PersonalWebsite extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Mohammed Irshad | Software Developer",
       theme: ThemeData(
-        backgroundColor: AppColors.backgroundBlue,
         canvasColor: AppColors.backgroundBlue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         fontFamily: 'Calibre',

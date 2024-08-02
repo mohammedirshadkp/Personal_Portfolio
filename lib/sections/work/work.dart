@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:personal_website/data/keys.dart';
 import 'package:personal_website/data/text.dart';
 import 'package:personal_website/sections/work/flit.dart';
+import 'package:personal_website/sections/work/wincept.dart';
 import 'package:personal_website/widgets/fade_animation.dart';
 import 'package:personal_website/widgets/responsive_widget.dart';
 import 'package:personal_website/widgets/section_title.dart';
@@ -39,6 +40,14 @@ class Work extends StatelessWidget {
             delay: const Duration(milliseconds: 100),
             child: FirstLogicMetaLab(
                 pointGroup: pointGroup, titleGroup: titleGroup),
+          ),
+          const SizedBox(
+            height: 20,
+          ),
+          FadeAnimation(
+            animationKey: Keys.wincept,
+            delay: const Duration(milliseconds: 100),
+            child: Wincept(pointGroup: pointGroup, titleGroup: titleGroup),
           ),
         ],
       ),
