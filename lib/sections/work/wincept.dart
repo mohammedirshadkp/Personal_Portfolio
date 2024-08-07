@@ -26,7 +26,7 @@ class Wincept extends StatelessWidget {
         WorkTitle(
           title: WorkData.softwareEngineer2,
           company: WorkData.wincept,
-          url: Url.firstlogic,
+          url: Url.wincept,
           group: titleGroup,
         ),
         const DateRange(

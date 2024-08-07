@@ -41,7 +41,7 @@ class FooterData {
 
 class IntroData {
   static const greeting = "Hey there, I'm";
-  static const name = "Mohammed Irshad Kp.";
+  static const name = "Mohammed Irshad";
   static const title = "I build mobile and web apps.";
   static const about =
       "I'm a software Developer, with a passion for developing  digital experiences. Currently, "
