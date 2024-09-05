@@ -44,9 +44,7 @@ class IntroData {
   static const name = "Mohammed Irshad";
   static const title = "I build mobile and web apps.";
   static const about =
-      "I'm a software Developer, with a passion for developing  digital experiences. Currently, "
-      "I am focused to develop a passion project for secure digital communication system catering specifically to sponsors and promoters,"
-      "facilitating confidential discussions and deal negotiations with robust security measures in place";
+      "Experienced software developer specializing in Flutter application development, with a proven track record in creating efficient, user-friendly applications. Seeking to contribute my skills to innovative projects in a forward-thinking company.";
 }
 
 class FlitData {

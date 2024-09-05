@@ -17,7 +17,6 @@ class Intro extends StatelessWidget {
   Widget build(BuildContext context) {
     const sliverAppBarHeight = 90;
     double height = MediaQuery.of(context).size.height - 2 * sliverAppBarHeight;
-
     return Container(
       height: height,
       alignment: Alignment.center,
@@ -25,18 +24,18 @@ class Intro extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           if (ResponsiveWidget.isAtLeastLargeScreen(context))
-            FadeAnimation(
-              animationKey: Keys.backgroundPicture,
-              delay: const Duration(milliseconds: 750),
-              child: Image.asset(
-                'assets/irshad_background.png',
-                width: 225,
-                fit: BoxFit.fill,
-                scale: ResponsiveWidget.isMediumScreen(context) ? 4.0 : 2.5,
-              ),
-            ),
-          SizedBox(
-              width: ResponsiveWidget.isAtLeastLargeScreen(context) ? 30 : 0),
+            // FadeAnimation(
+            //   animationKey: Keys.backgroundPicture,
+            //   delay: const Duration(milliseconds: 750),
+            //   child: Image.asset(
+            //     'assets/irshad_background.png',
+            //     width: 225,
+            //     fit: BoxFit.fill,
+            //     scale: ResponsiveWidget.isMediumScreen(context) ? 4.0 : 2.5,
+            //   ),
+            // ),
+            SizedBox(
+                width: ResponsiveWidget.isAtLeastLargeScreen(context) ? 30 : 0),
           Flexible(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
