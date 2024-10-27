@@ -18,5 +18,5 @@ class Url {
   static const linkedin =
       "https://www.linkedin.com/in/mohammed-irshad-a652b1298";
   static const resume =
-      "https://drive.google.com/file/d/1ggMBQmBjDlZIWt1d1X6N0LFEOBOYXUel/view?usp=drivesdk";
+      "https://drive.google.com/file/d/1kBO6AC8XR7Ctpn4q8jJHDsfMwcjcjJDg/view?usp=drivesdk";
 }

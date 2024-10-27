@@ -34,7 +34,7 @@ class FooterData {
   static const contactPart1 = "Let's get in touch! I prefer ";
   static const contactPart2 = "Emails";
   static const contactPart3 = " and ";
-  static const contactPart4 = "+91 7592072890";
+  static const contactPart4 = "+370 63206172";
   static const contactPart5 = ".";
   static const copyright = "© 2023 by Mohammed Irshad Kp";
 }
