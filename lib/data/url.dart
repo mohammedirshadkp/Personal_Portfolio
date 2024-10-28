@@ -14,7 +14,7 @@ class Url {
       "https://firebase.google.com/docs/cloud-messaging";
   static const email = "mailto:mohammedirshadkp500@gmail.com";
   static const github = "https://github.com/mohammedirshadkp";
-  static const instagram = "https://www.instagram.com/irshadkp_";
+  static const instagram = "https://www.instagram.com/irshadkp__";
   static const linkedin =
       "https://www.linkedin.com/in/mohammed-irshad-a652b1298";
   static const resume =
